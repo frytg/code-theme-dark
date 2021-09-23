@@ -1,10 +1,10 @@
 {
-    "name": "code-theme-yellow-dark",
-    "displayName": "code-theme-yellow-dark",
-    "description": "Yellow (Dark) with blue-ish base",
+    "name": "code-theme-dark",
+    "displayName": "code-theme-dark",
+    "description": "Dark with blue-ish base",
     "version": "0.0.1",
     "engines": {
-        "vscode": "^1.45.0"
+        "vscode": ">1.45.0"
     },
     "categories": [
         "Themes"
@@ -12,10 +12,13 @@
     "contributes": {
         "themes": [
             {
-                "label": "Yellow (Dark)",
+                "label": "Dark (Yellow/Blue-ish)",
                 "uiTheme": "vs-dark",
                 "path": "./themes/vscode-yellow-dark.json"
             }
         ]
+    },
+    "dependencies": {
+        "vsce": "^1.81.1"
     }
 }

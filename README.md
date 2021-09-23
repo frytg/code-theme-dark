@@ -1,4 +1,4 @@
-# Yellow (Dark)
+# Dark (Yellow/Blue-ish)
 
 Dark-mode theme with neon accents on a blue-ish base.
 
