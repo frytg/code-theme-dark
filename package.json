@@ -2,9 +2,10 @@
     "name": "code-theme-dark",
     "displayName": "code-theme-dark",
     "description": "Dark with blue-ish base",
-    "version": "0.0.1",
+    "publisher": "frytg",
+    "version": "0.0.2",
     "engines": {
-        "vscode": ">1.45.0"
+        "vscode": "^1.45.0"
     },
     "categories": [
         "Themes"
@@ -17,6 +18,10 @@
                 "path": "./themes/vscode-yellow-dark.json"
             }
         ]
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/frytg/code-theme-dark"
     },
     "dependencies": {
         "vsce": "^1.81.1"
